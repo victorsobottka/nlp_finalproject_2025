@@ -53,6 +53,7 @@ We selected the **Financial PhraseBank** dataset ([Malo et al., 2014](https://hu
 ---
 
 ## 📁 Repository Structure
+```
 ├── data/ # Dataset files
 ├── figures/ # Plots & visualizations
 ├── packages/ # Custom Python modules
@@ -63,7 +64,7 @@ We selected the **Financial PhraseBank** dataset ([Malo et al., 2014](https://hu
 ├── Notebook_Part04 # Model compression
 ├── LICENSE
 └── README.md
-
+```
 
 ---
 
