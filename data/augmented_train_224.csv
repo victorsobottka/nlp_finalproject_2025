@@ -1,0 +1,225 @@
+sentence,label
+Cargotec 's business areas also include the container handling solutions business area Kalmar and the marine cargo handling and offshore load handling solutions business area MacGREGOR .,1
+"Operating profit was EUR 11.4 mn , up from EUR 7.5 mn .",2
+Sales by Seppala diminished by 6 per cent .,0
+"Simmons Elected DCUC Chairman PORTSMOUTH , N.H.-Gordon A. Simmons , CEO of Service Credit Union , has been elected chairman of the Defense Credit Union Council for the 2007-2008 term .",1
+Operating profit rose from EUR 1.94 mn to EUR 2.45 mn .,2
+The situation of coated magazine printing paper will continue to be weak .,0
+"The new system , which will include 60 MC3090 PDAs from Motorola , to be used by 60 Poundstretcher operatives across 3 shifts , will integrate in real-time with the company s existing Warehouse Management System , Aldata G.O.L.D Stock , which went live in May 2008 .",1
+"( ADP News ) - Sep 30 , 2008 - Finnish security and privacy software solutions developer Stonesoft Oyj said today that it won a USD 1.9 million ( EUR 1.3 m ) order to deliver its StoneGate network security products to an unnamed Russian te",2
+At CapMan Haavisto will be responsible for Group Finances and Accounting and IT .,1
+"Pretax profit totalled EUR 80.8 mn , compared to a loss of EUR 13.1 mn in the corresponding period in 2009 .",2
+`` We 've been feeling quite positive about the region as a whole .,2
+"Sales are expected to increase in the end of the year 2006 , however .",2
+The passenger tunnel is expected to be put into operation in 2009 .,1
+The company pledged that the new software would render e-mails and other documents much as they appear on desktop computers .,1
+The government has instead proposed an exchange of the state 's stake in LMT to TeliaSonera 's stake in Lattelecom .,1
+"Alma Media 's operating profit amounted to EUR 11.9 mn , down from EUR 15.0 mn a year earlier .",0
+EUR 220 million of the transaction consideration was paid in the form of four-year interest-bearing vendor notes .,1
+The acquisition will considerably increase Kemira 's sales and market position in the Russian metal industry coatings market .,2
+Pharmaceutical market in Belgium Global Research & Data Services published recently a market analysis about the pharmaceutical markets in Belgium .,1
+"Established in 1989 , CapMan manages Nordic buyout , mezzanine , technology , life science and real estate funds with approximately EURO 3 billion $ 4 billion in total capital .",1
+Reported operating margin was a negative 5.9 % .,0
+"The Tekla Structures product box , if needed , is now made from recycled material .",1
+"Our customers come from the following countries : UK , USA , Spain , France , Italy , Germany , China , Sweden , Norway , Netherlands , Austria , Belgium , Switzerland , Czech Republic , Serbia , Finland , Canada , Russia , Ukraine , Portugal , Denmark , Ireland , South Korea , Estonia and Liechtenstein .",1
+The price will be specified at the completion date .,1
+"The cosmetics collection includes an eye shadow , face powder , lip gloss , mascara and accessories .",1
+"A. Le Coq Special was developed for the bicentenary of the company and the trade mark , the brewer said .",1
+SAMPO PLC Jarmo Salonen Head of Investor Relations and Group Communications tel. +358 10 516 0030 Distribution : NASDAQ OMX Helsinki The principal media Financial Supervisory Authority www.sampo.com This announcement is distributed by Thomson Reuters on behalf of Thomson Reuters clients .,1
+The company says the measures are no longer needed .,1
+Castecka said the town hall would hold talks with other investors interested in the zone .,1
+"Please inform IR Johanna Koskinen of your participation no later than 20 April at 10 a.m. A telephone conference for financial analysts and investors , conducted in English , will begin at 3:00 p.m. Finnish time ( EET ) .",1
+The expanded plant is scheduled to be operational by the middle of October 2009 .,1
+Last year SysOpen Digia invested in IBM product know-how in the building of portal and trading place systems and successfully implemented customer solutions supported by it .,2
+Sample Input:,1
+Cargotec's business areas also include the container handling solutions business area Kalmar and the marine cargo handling and offshore load handling solutions business area MacGREGOR.,1
+Output:,1
+1. Cargotec's business areas also include the container handling solutions business area Kalmar and the marine cargo handling and offshore load handling solutions business area MacGREGOR.,1
+2. Cargotec's business areas also include the container handling solutions business area Kalmar and the marine cargo handling and offshore load handling solutions business area MacGREGOR.,1
+3. Cargotec's business areas also include the container handling solutions business area Kalmar and the marine cargo handling and offshore load handling solutions business area MacGREGOR.,1
+5. No punctuation or formatting,2
+6. Avoid using contractions or clichés,2
+"7. Use positive adjectives, verbs, and nouns",2
+8. Test on a specific dataset to ensure accuracy,2
+Example:,2
+```,2
+5. Punctuation marks and spaces are optional.,0
+For example:,0
+- Sales by Seppala decreased by 6%,0
+Sentence: Sales decreased by 6% in the last quarter.,0
+- Sales by Seppala decreased by 8%,0
+Sentence: Sales decreased by 8% in the last month.,0
+is allowed,1
+Example 7:,1
+"'Akamai Technologies, Inc. (NASDAQ:AKAM)'",1
+"Sentences with neutral sentiment, similar to:",1
+"Akamai Technologies, Inc. (NASDAQ:AKAM) is a leading provider of cloud-based security and performance solutions.",1
+Example 8:,1
+will be included,2
+5. Use the following pattern to generate the sentences:,2
+1. Sentence 1: 'The company reported a revenue of EUR 60.00 mn',2
+2. Sentence 2: 'The company reported a net income of EUR 5.14 mn',2
+3. Sentence 3: 'The company reported an operating profit of EUR 3.81 mn',2
+4. Sentence 4: 'The company reported a net profit of EUR 3.65 mn',2
+Example:,0
+The situation of coated magazine printing paper will continue to be weak,0
+Rules:,0
+1. Each sentence must be unique,0
+2. Maintain the same negative tone,0
+"3. Return ONLY the sentences, one per line",0
+inside the square brackets,1
+5. Do not include punctuation or whitespaces,1
+6. Exclude any pre-existing sentences that are not unique,1
+Sample Output:,1
+"The new system, which will include 60 MC3090 PDAs from Motorola, will be used by 60 Poundstretcher operatives across 3 shifts, integrating in real-time with the company s existing Warehouse Management System, Aldata G.O.L.D Stock.",1
+"The new system, which will include 60 MC3090 PDAs from Motorola, will be used by 60 Poundstretcher operatives across 3 sh",1
+"5. Use a consistent prepositional phrase (e.g. To, on, about, of)",2
+"6. Use a consistent verb (e.g. Are, was, had, being)",2
+"7. Use a consistent number of commas (e.g. 2, 3, 4, etc.)",2
+"8. Use a consistent punctuation mark (e.g. Question mark, comma, dash, period)",2
+"9. Use a consistent capitalization (e.g. Capital letters for nouns, capital letters for proper names)",2
+"10. Avoid any punctuation errors (e.g. Missing commas, punctuation marks, or hyphens)",2
+5. Sentences should be separated with a space after the colon,1
+3. Group Finances and Accounting Responsibilities at CapMan:,1
+Sentences:,1
+1. At CapMan Haavisto will be responsible for Group Finances and Accounting,1
+"2. As Accounting Manager, Haavisto will be responsible for managing the financial operations and reporting of the group, including financial planning, budgeting, financial analysis, and risk management.",1
+3. Haavisto will also be responsible for ensuring that the finance team has all necessary information and data to support the development and implementation of Group financial strategies.,1
+", please.",2
+Example 2:,2
+Input:,2
+"'Net income plunged 82% to EUR 15.3 mn in the first quarter of 2010, compared to EUR 53.7 mn in the same period in 2009.'",2
+Rules:,2
+1. Each sentence must be unique,2
+", including punctuation and spaces.",2
+Example output:,2
+```,2
+Generate Sentences:,2
+1. We're feeling quite positive about the region as a whole.,2
+2. Positive momentum is building in the local economy.,2
+included,2
+5. Sentences should follow the following pattern:,2
+```,2
+sentence1 (positive),2
+sentence2 (positive),2
+sentence3 (negative),2
+added,1
+5. Output in English,1
+3. 'This is a sample sentence. There will be no sentences generated for this rule set. Please generate sentences on your own using the following rules.',1
+Rules:,1
+1. Each sentence must be unique,1
+2. Maintain the same neutral tone,1
+.,1
+Example 2:,1
+"Text: ""The new software is expected to introduce a host of new features and enhancements that will significantly improve the user experience on the platform.",1
+Rules:,1
+1. Each sentence must be unique,1
+2. Maintain the same neutral tone,1
+5. The sentences should have a minimum of 5 words and a maximum of 15 words (total),1
+6. The sentences should follow the pattern:  [Given Sentence],1
+"7. If you have multiple sentences with the same pattern, please combine them into a single file.",1
+8. The generated sentences should have a separate file (e.g. Sentences_neutral.txt) for each neutral sentiment you want to generate.,1
+9. The generated sentences should be saved in a CSV or TSV format for later use (e.g. Analyzing sentiment for a specific time period).,1
+Step 2: Analyze Sentiment,1
+[Sentence 1],0
+"Alma Media's operating profit amounted to EUR 11.9 mn, down from EUR 15.0 mn a year earlier.",0
+[Sentence 2],0
+"The company's total revenues amounted to EUR 48.2 mn, down from EUR 52.1 mn in the corresponding period last year.",0
+[Sentence 3],0
+"The company's order backlog at the end of the reporting period was EUR 108.4 mn, down from EUR 180.0 mn at the end of the third quarter.",0
+(but please include the sentence numbers in the file name),1
+Sentence 1:,1
+The transaction consideration comprised EUR 220 million (approximately US$265 million) in cash and US$26 million of non-cash items.,1
+Sentence 2:,1
+"The loan amount was reduced by EUR 175 million (approximately US$220 million) by the repayment of EUR 25 million of outstanding borrowings under existing credit facilities, EUR 80 million (approximately US$100 million) of debt refinancing and other borrowings, and US$15 million of acquisition finance.",1
+Sentence 3:,1
+5. Use the provided text as a guide,2
+6. Ensure that each sentence is grammatically correct,2
+7. Use subject and verb agreement,2
+8. Use full stops at the end of each sentence,2
+9. Add your own unique touch to each sentence,2
+2. Sentence Translation:,2
+"5. Use the provided ""Sentence 1"" and ""Sentence 2"" as examples",1
+"6. Use the provided ""Sentence 3-N"" and ""Sentence N"" for all ""n"" sentences",1
+"7. Use the provided ""Sentence 4-N"" and ""Sentence N-N"" for all ""n"" sentences",1
+"8. Ensure that the text is properly spaced, indented, and formatted, in APA format.",1
+Example:,1
+```,1
+5. No punctuation except period (.),1
+```,1
+Example 2:,1
+```,1
+Sentences:,1
+"1. The 2019 global sales of smartphones reached 1.8 billion units, up 2.2% in volume and 4.6% in value YoY.",1
+5. The sentences should be separated by spaces,0
+Example input:,0
+Data: Reported operating margin was a negative 5.9 %.,0
+Output: negative-5-9-percent,0
+Example input:,0
+"Data: Reported net income was a loss of $500,000.",0
+"(e.g. Date, time, etc.)",1
+"5. Each sentence should be the same length and include at least one noun, verb, and subject.",1
+"5. Sentence 7: Generate 6 different sentences with positive sentiment, similar to:",1
+"'The new software is now available to your organization, which will greatly enhance your workflows.'",1
+Rules:,1
+1. Each sentence must be unique,1
+Example output:,1
+"1. Our customers come from the following countries: UK, USA, Spain, France, Italy, Germany, China, Sweden, Norway, Netherlands, Austria, Belgium, Switzerland, Czech Republic, Serbia, Finland, Canada, Russia, Ukraine, Portugal, Denmark, Ireland, South Korea, Estonia and Liechtenstein.",1
+```,1
+4. **Create a list of brand ambassadors for a product launch:**,1
+Example prompt:,1
+```,1
+5. 'These services are subject to change without notice.',1
+Rules:,1
+1. Each sentence must be unique,1
+2. Maintain the same neutral tone,1
+"3. Return ONLY the sentences, one per line",1
+4. No numbering or additional text,1
+5. Sample output:,1
+```,1
+"(1) The cosmetics collection includes an eye shadow (neutral), face powder (neutral), lip gloss (neutral), mascara (neutral), and accessories (neutral).",1
+"(2) The cosmetics collection includes an eye shadow (neutral), face powder (neutral), lip gloss (neutral), mascara (neutral), and accessories (neutral).",1
+"(3) The cosmetics collection includes an eye shadow (neutral), face powder (neutral), lip gloss (neutral), mascara (neutral), and accessories (neutral).",1
+"(4) The cosmetics collection includes an eye shadow (neutral), face powder (neutral), lip gloss (neutral), mascara (neutral), and accessories (neutral).",1
+(such as punctuation or formatting),1
+5. Separate sentences with a blank line,1
+"3. Generate 6 different sentences with happy sentiment, similar to:",1
+"'The launch of their new product line, the company said, was a huge success, and they have been expanding '",1
+Rules:,1
+1. Each sentence must be unique,1
+"5. No punctuation, except for spaces",1
+6. No extra spaces before or after the sentences,1
+7. No spaces between sentences,1
+"8. This is a template for you to use, not the final product.",1
+,1
+"template = """"""|user|",1
+5. Include the original text,1
+Step 2. Write 5 different short stories,1
+Description:,1
+"1. Title: ""The Boy Who Saved the World, Part 1",1
+"2. Text: ""Max had always been a bit different. His eyes were the color of blue sky on a cloudless day, and his hair was the color of the ocean on a clear day. He never seemed to get bored.",1
+"3. Text: ""Lena had always been a bit different. Her eyes were the color of the sunset on a rainy day. Her hair was the color of the forest in autumn. She never seemed to get bored.",1
+or comments,1
+5. Send to: ccasticka@glasstownhall.com,1
+6. Example:,1
+```,1
+Castecka said the town hall would hold talks with other investors interested in the zone.,1
+Castecka said that town hall would hold talks with other investors interested in the zone.,1
+is allowed,1
+5. Save the text as a `.txt` file with the date and time in the filename,1
+Example output:,1
+```,1
+"Please inform IR Johanna Koskinen of your participation no later than 20 April at 10 a.m. A telephone conference for financial analysts and investors, conducted in English, will begin at 3:00 p.m. Finnish time ( EET ).",1
+Their annual report for fiscal year 2021:,1
+```,1
+"[""The expanded plant is scheduled to be operational by the middle of October 2009."",",1
+"Rules:"",",1
+"1. Each sentence must be unique"",",1
+"2. Maintain the same neutral tone"",",1
+"3. Return ONLY the sentences, one per line"",",1
+(e.g. Comments),2
+5. No whitespace at the end of the sentences,2
+Given sample file:,2
+1. Last year SysOpen Digia invested in IBM product know-how in the building of portal and trading place systems.,2
+2. Successfully implemented customer solutions supported by it.,2
+3. Customer solutions supported by it.,2
