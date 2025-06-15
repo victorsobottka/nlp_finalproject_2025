@@ -58,6 +58,7 @@ We selected the **Financial PhraseBank** dataset ([Malo et al., 2014](https://hu
 ├── figures/ # Plots & visualizations
 ├── packages/ # Custom Python modules
 ├── papers/ # PDFs and references
+|── NLP_Final_Project # PDF for all the analysis
 ├── Notebook_Part01 # Baseline analysis
 ├── Notebook_Part02 # Data augmentation & LLMs
 ├── Notebook_Part03 # SOA comparison
